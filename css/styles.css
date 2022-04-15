@@ -1,0 +1,28 @@
+body {
+    background-color: #000000;
+}
+
+.logo {
+    animation: float 3s ease-in-out infinite; 
+    margin-top: 12em;    /* espaçanmento do topo   */
+    display: block;      /* centralizando a imagem */
+    margin-left: auto;   /* centralizando a imagem */
+    margin-right: auto;  /* centralizando a imagem */
+    
+}
+
+.line-base {
+    width: 25%;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-25px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
